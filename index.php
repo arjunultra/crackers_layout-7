@@ -1,4 +1,4 @@
-<?php $page = "home"; ?>
+<?php $page = "index"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,9 +56,8 @@
 		</a>
 	</div>
 	<!-- index first -->
-	<section class="index-first">
-		<div class="cloud-layer">
-		</div>
+	<section class="index-first pad">
+
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-md-6 col-lg-6">
@@ -73,7 +72,8 @@
 					</div>
 
 					<h2 class="heading1 text-violet">Ignite the Celebration with the Best Fireworks in Town!</h2>
-					<p class="text-dark lead">Fireworks light up the night sky with dazzling colors, bringing joy
+					<p class="text-dark lead text-center text-md-left">Fireworks light up the night sky with dazzling
+						colors, bringing joy
 						and
 						excitement to
 						celebrations. Their vibrant bursts create unforgettable memories, making every festival a
@@ -87,11 +87,12 @@
 				</div>
 			</div>
 		</div>
+
+	</section>
+	<!-- index-section 2 count -->
+	<section class="fun-fact-area text-center">
 		<div class="cloud-layer-invert">
 		</div>
-	</section>
-	<!-- index-section 2 -->
-	<section class="fun-fact-area text-center py-5">
 		<div class="container">
 			<div class="row justify-content-center">
 				<!-- Fact 1 -->
@@ -136,6 +137,8 @@
 				</div>
 			</div>
 		</div>
+		<div class="cloud-layer">
+		</div>
 	</section>
 	<!-- products section -->
 	<section class="products-section">
@@ -147,7 +150,7 @@
 							data-wow-duration="0.7s">Our Products
 						</h1>
 						<h2 class="font-weight-bold text-violet">Explore Our Fireworks Collection</h2>
-						<div class="space16"></div>
+
 						<p class="wow fadeInLeft" data-wow-duration="0.8s">
 							Discover our wide range of high-quality fireworks, from sparklers to aerial shells, designed
 							to light up your celebrations.
@@ -156,7 +159,6 @@
 				</div>
 			</div>
 
-			<div class="space30"></div>
 			<div class="swiper product-swiper">
 				<div class="swiper-wrapper">
 					<!-- Product 1 -->
@@ -268,11 +270,16 @@
 	</section>
 	<!-- index parallax -->
 	<section class="index-parallax">
-		<div class="container text-center">
-			<h2 class="heading1 font-weight-bold text-white">Ignite the Night with Our Spectacular Fireworks!</h2>
-			<p class="lead text-warning">Discover an explosive selection of fireworks to make every celebration
-				unforgettable.</p>
-			<a href="products.php" class="theme-btn">Browse Fireworks</a>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-12 col-lg-12 text-center">
+					<h2 class="heading1 font-weight-bold text-white">Ignite the Night with Our Spectacular Fireworks!
+					</h2>
+					<p class="lead text-warning">Discover an explosive selection of fireworks to make every celebration
+						unforgettable.</p>
+					<a href="products.php" class="theme-btn">Browse Fireworks</a>
+				</div>
+			</div>
 		</div>
 	</section>
 	<!-- why choose us -->

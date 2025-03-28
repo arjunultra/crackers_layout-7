@@ -1,4 +1,4 @@
-<?php $page = "home"; ?>
+<?php $page = "about"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/odometer-theme-default.css" />
+    <link rel="stylesheet" href="css/hover-min.css" />
 
 </head>
 
@@ -45,13 +46,13 @@
                 <!-- Left Side: Image -->
                 <div class="col-lg-6">
                     <div class="image-wrapper wow fadeInLeft" data-wow-duration="1s">
-                        <img src="images/about-intro.jpg" alt="Fireworks Shop"
-                            class="img-fluid rounded shadow round-mask">
+                        <img src="images/about-collage-1.webp" alt="Fireworks Shop" class="img-fluid rounded shadow">
                     </div>
                 </div>
                 <!-- Right Side: Text Content -->
-                <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s">
-                    <h2 class="section-title">About <span>Demo Traders</span></h2>
+                <div class="col-lg-6 wow fadeInRight text-center text-md-left" data-wow-duration="1s">
+                    <h1 class="heading6 text-uppercase text-red font-weight-bold mt-3 mt-md-0">About Us</h1>
+                    <h2 class="section-title">Your Trusted Partner in Fireworks & Festivities!</h2>
                     <p class="intro-text">
                         Welcome to Demo Traders, your trusted wholesale and retail fireworks supplier.
                         We provide the highest quality fireworks to light up your celebrations,
@@ -71,6 +72,110 @@
             </div>
         </div>
     </section>
+    <!-- about parallax -->
+    <section id="banner-6" class="py-5">
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-12 col-md-12 col-lg-12 text-center text-md-left">
+                    <div class="banner-6-text px-5">
+                        <h2 class="h1 font-weight-bold p-3 text-warning text-center">Light Up the
+                            Night!</h2>
+                        <p class="text-white text-center pb-lg-3">
+                            Make every celebration unforgettable with our high-quality fireworks. From dazzling aerial
+                            shells to colorful fountains, we bring you the best selection for any occasion. Whether
+                            you're
+                            planning a grand event or a backyard party, we've got the perfect fireworks for you!
+                        </p>
+                        <a href="products.php" class="btn btn-warning text-center mx-auto d-inline-block mb-lg-5 mb-4">
+                            Shop Fireworks <span><i class="fa fa-angle-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- vision,mission,values -->
+    <section class="vision-mission-values py-5">
+        <div class="container text-center">
+            <h1 class="heading6 text-uppercase text-red font-weight-bold">Who We Are</h1>
+            <h2 class="h1 font-weight-bold text-violet">The Fire Behind Us</h2>
+
+            <div class="row mt-4">
+                <!-- Vision -->
+                <div class="col-lg-4 col-md-12 col-12 mb-4">
+                    <div class="box hvr-bounce-to-bottom">
+                        <i class="bi bi-eye icon"></i>
+                        <h3>Our Vision</h3>
+                        <p>To be the leading supplier of high-quality fireworks, bringing joy and excitement to
+                            celebrations worldwide.</p>
+                    </div>
+                </div>
+
+                <!-- Mission -->
+                <div class="col-lg-4 col-md-12 col-12 mb-4">
+                    <div class="box hvr-bounce-to-bottom">
+                        <i class="bi bi-bullseye icon"></i>
+                        <h3>Our Mission</h3>
+                        <p>Delivering safe, innovative, and eco-friendly fireworks while ensuring customer satisfaction
+                            and compliance with safety standards.</p>
+                    </div>
+                </div>
+
+                <!-- Values -->
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="box hvr-bounce-to-bottom">
+                        <i class="bi bi-stars icon"></i>
+                        <h3>Our Values</h3>
+                        <p>Quality, safety, innovation, and customer trust form the foundation of our business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section bg-red py-5 text-center text-md-left">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-md-7 col-12">
+                    <h1 class="text-white font-weight-bold heading6 text-uppercase">Demo Traders</h1>
+                    <h2 class="text-warning font-weight-bold heading1 text-white">Driven by Passion, Innovation & Trust
+                    </h2>
+                    <p class="helvetica text-white">
+                        At Demo Traders, we ignite celebrations with high-quality, safe, and eco-friendly
+                        fireworks.
+                        Our commitment to excellence ensures every moment sparks joy and wonder.
+                        Join us in lighting up the skies with brilliance and responsibility.
+                    </p>
+                    <a href="contact.php" class="theme-btn mb-3 mb-md-0"> Get in Touch
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-5 col-12">
+                    <img src="images/about-contact.webp" alt="about contact image" title="Demo Traders"
+                        class="img-fluid design-mask">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Brands Section -->
+    <section class="our-brands py-5">
+        <div class="container-fluid text-center">
+            <h1 class="heading6 text-red font-weight-bold text-uppercase">Trusted by Many</h1>
+            <h2 class="heading1 text-violet font-weight-bold">Our Brands</h2>
+
+            <div class="swiper-container brand-swiper mt-4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide wow fadeInUp"><img src="images/brand1.webp" alt="Brand 1"></div>
+                    <div class="swiper-slide wow fadeInUp"><img src="images/brand2.webp" alt="Brand 2"></div>
+                    <div class="swiper-slide wow fadeInUp"><img src="images/brand3.webp" alt="Brand 3"></div>
+                    <div class="swiper-slide wow fadeInUp"><img src="images/brand4.webp" alt="Brand 4"></div>
+                    <div class="swiper-slide wow fadeInUp"><img src="images/brand5.webp" alt="Brand 5"></div>
+                    <div class="swiper-slide wow fadeInUp"><img src="images/brand6.webp" alt="Brand 6"></div>
+                    <div class="swiper-slide wow fadeInUp"><img src="images/brand7.webp" alt="Brand 7"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
     <!-- footer -->

@@ -32,15 +32,17 @@
             </div>
 
             <!-- Quick Links -->
-            <div class="footer-quick-links">
-                <h4 class="text-yellow font-weight-bold">Quick Links</h4>
-                <div class="quick-links">
-                    <a href="index.php" class="footer-link">Home</a>
-                    <a href="about.php" class="footer-link">About</a>
-                    <a href="products.php" class="footer-link">Products</a>
-                    <a href="safety.php" class="footer-link">Safety Tips</a>
-                    <a href="contact.php" class="footer-link">Contact Us</a>
-                    <a href="products.php" class="footer-link">Quick Purchase</a>
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="footer-quick-links">
+                    <h4 class="text-yellow font-weight-bold">Quick Links</h4>
+                    <div class="quick-links">
+                        <a href="index.php" class="footer-link">Home</a>
+                        <a href="about.php" class="footer-link">About</a>
+                        <a href="products.php" class="footer-link">Products</a>
+                        <a href="safety.php" class="footer-link">Safety Tips</a>
+                        <a href="contact.php" class="footer-link">Contact Us</a>
+                        <a href="products.php" class="footer-link">Quick Purchase</a>
+                    </div>
                 </div>
             </div>
 
